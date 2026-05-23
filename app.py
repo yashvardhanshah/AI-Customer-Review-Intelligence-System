@@ -15,6 +15,10 @@ st.set_page_config(
 )
 
 BASE = os.path.dirname(os.path.abspath(__file__))
+import nltk
+nltk.download('stopwords', quiet=True)
+nltk.download('wordnet', quiet=True)
+nltk.download('omw-1.4', quiet=True)
 sys.path.insert(0, BASE)
 
 # ── CSS ────────────────────────────────────────────────────────────────────────
