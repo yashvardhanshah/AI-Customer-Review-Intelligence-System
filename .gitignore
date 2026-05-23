@@ -19,3 +19,5 @@ data/database.sqlite
 data/hashes.txt 
 models/linear_svm.pkl 
 models/reverse_label_mapping.json 
+data/cleaned_reviews.csv 
+models/naive_bayes_best.pkl 
