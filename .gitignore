@@ -14,4 +14,8 @@ models/random_forest.pkl
 models/logistic_regression.pkl
 models/logistic_regression_best.pkl
 models/naive_bayes.pkl
-models/naive_bayes_best.pkl
+models/naive_bayes_best.pkldata/cleaned_reviews.csv 
+data/database.sqlite 
+data/hashes.txt 
+models/linear_svm.pkl 
+models/reverse_label_mapping.json 
