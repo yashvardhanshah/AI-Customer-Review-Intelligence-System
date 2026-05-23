@@ -5,4 +5,12 @@ __pycache__/
 *.pt
 models/
 data/
-.ipynb_checkpoints/
+.ipynb_checkpoints/data/raw/Reviews.csv 
+data/raw/database.sqlite 
+data/processed/cleaned_reviews.csv 
+data/processed/X_train_tfidf.pkl 
+data/processed/X_test_tfidf.pkl 
+data/processed/y_train.pkl 
+data/processed/y_test.pkl 
+__pycache__/ 
+.ipynb_checkpoints/ 
