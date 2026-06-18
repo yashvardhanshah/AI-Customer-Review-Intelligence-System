@@ -272,7 +272,7 @@ SOFTWARE.
 
 <div align="center">
 
-**Built with precision by [Yash Vardhan Shah](https://github.com/yashvardhanshah)**
+**Built with precision by [Yashvardhan Shah](https://github.com/yashvardhanshah)**
 
 ⭐ Star this repo if you found it useful
 
