@@ -1,9 +1,10 @@
 {
-    "model": "random_forest",
-    "accuracy": 0.7803855559437228,
-    "f1_macro": 0.6247842559860983,
-    "f1_weighted": 0.8073811506560283,
-    "precision_macro": 0.605055795891745,
-    "recall_macro": 0.691944409133778,
-    "neutral_f1": 0.3389527458492976
+    "model": "Random Forest",
+    "accuracy": 0.7785752850382698,
+    "f1_macro": 0.5992151795361292,
+    "f1_weighted": 0.795332165059919,
+    "neutral_f1": 0.3133480593247081,
+    "precision_macro": 0.5807352387040176,
+    "recall_macro": 0.6343938723298086,
+    "roc_auc_macro": 0.8556844187812372
 }

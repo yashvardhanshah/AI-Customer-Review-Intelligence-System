@@ -53,8 +53,8 @@ def train_random_forest(X_train, y_train):
         n_estimators=80,
         max_depth=20,
         max_features='sqrt',
-        class_weight='balanced',   # 🔥 ADD THIS
-        n_jobs=1,
+        class_weight='balanced', 
+        n_jobs=-1,
         random_state=42
     )
     model.fit(X_train, y_train)
@@ -62,18 +62,26 @@ def train_random_forest(X_train, y_train):
 
 # XGBoost Classifier
 from xgboost import XGBClassifier
+from sklearn.utils.class_weight import compute_sample_weight
 
-def train_xgboost(X_train, y_train, n_estimators=200, learning_rate=0.1, max_depth=6, random_state=42):
+def train_xgboost(X_train, y_train, n_estimators=200, learning_rate=0.1, max_depth=5,
+                  max_bin=32, colsample_bytree=0.3, n_jobs=4, random_state=42):
+    """
+    Train XGBoost with class-balanced sample weights.
+    max_bin / colsample_bytree / n_jobs keep memory manageable on 20,000 sparse TF-IDF features.
+    """
     model = XGBClassifier(
         n_estimators=n_estimators,
         learning_rate=learning_rate,
         max_depth=max_depth,
+        max_bin=max_bin,
+        colsample_bytree=colsample_bytree,
         random_state=random_state,
-        use_label_encoder=False,
         eval_metric='mlogloss',
-        n_jobs=-1
+        n_jobs=n_jobs,
+        tree_method='hist'
     )
-    model.fit(X_train, y_train)
+    model.fit(X_train, y_train, sample_weight=compute_sample_weight('balanced', y_train))
     return model
 
 def save_model(model, path):

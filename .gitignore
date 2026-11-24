@@ -21,3 +21,9 @@ models/linear_svm.pkl
 models/reverse_label_mapping.json 
 data/cleaned_reviews.csv 
 models/naive_bayes_best.pkl 
+models/xgboost.pkl
+results/metrics/linear_svm_best_misclassified.csv
+~$*
+*.docx
+models/xgboost.pkl
+results/metrics/linear_svm_best_misclassified.csv

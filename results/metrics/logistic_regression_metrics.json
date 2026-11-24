@@ -1,9 +1,10 @@
 {
-    "model": "logistic_regression",
-    "accuracy": 0.7783847302061168,
-    "f1_macro": 0.6247842559860983,
-    "f1_weighted": 0.8073811506560283,
-    "precision_macro": 0.605055795891745,
-    "recall_macro": 0.691944409133778,
-    "neutral_f1": 0.3389527458492976
+    "model": "Logistic Regression",
+    "accuracy": 0.809667481817893,
+    "f1_macro": 0.6515688392725932,
+    "f1_weighted": 0.8307876952224165,
+    "neutral_f1": 0.36791779648922507,
+    "precision_macro": 0.6285171788646237,
+    "recall_macro": 0.7066377211424703,
+    "roc_auc_macro": 0.9063107822599464
 }

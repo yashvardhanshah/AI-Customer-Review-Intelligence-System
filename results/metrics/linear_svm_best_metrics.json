@@ -1,0 +1,10 @@
+{
+    "model": "Linear SVM (Tuned)",
+    "accuracy": 0.862895798265951,
+    "f1_macro": 0.6825296948536329,
+    "f1_weighted": 0.8622565517696392,
+    "neutral_f1": 0.3958513396715644,
+    "precision_macro": 0.6828615050136007,
+    "recall_macro": 0.6825249047478922,
+    "roc_auc_macro": 0.9130415846362888
+}

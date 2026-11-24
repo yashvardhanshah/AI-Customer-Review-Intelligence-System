@@ -1,9 +1,10 @@
 {
-    "model": "naive_bayes",
-    "accuracy": 0.8242766856162861,
-    "f1_macro": 0.47228919195873537,
-    "f1_weighted": 0.7742552815914817,
-    "precision_macro": 0.7835385568667124,
-    "recall_macro": 0.4491169644482685,
-    "neutral_f1": 0.04158173664900122
+    "model": "Naive Bayes",
+    "accuracy": 0.8427605043351224,
+    "f1_macro": 0.5287843261212752,
+    "f1_weighted": 0.8037277237625314,
+    "neutral_f1": 0.08280757097791798,
+    "precision_macro": 0.7731556828257723,
+    "recall_macro": 0.5006924622170948,
+    "roc_auc_macro": 0.902491474900701
 }
